@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>karaoke</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+background-color: #22222B;
+background-image: -webkit-linear-gradient(270deg,rgba(19,19,24,1.00) 54.73%,rgba(34,34,43,1.00) 100%);
+background-image: -moz-linear-gradient(270deg,rgba(19,19,24,1.00) 54.73%,rgba(34,34,43,1.00) 100%);
+background-image: -o-linear-gradient(270deg,rgba(19,19,24,1.00) 54.73%,rgba(34,34,43,1.00) 100%);
+background-image: linear-gradient(180deg,rgba(19,19,24,1.00) 54.73%,rgba(34,34,43,1.00) 100%);
+background-repeat: no-repeat;
+background-size: auto 400px;
+background-position: 0% 0;
+	margin-top: 140px;
+	}
+</style>
+</head>
+
+<body>
+<header class="cabecalho" id="header_scroll">
+	<div class="logo_header">
+		<a href="index.html"><img src="img/Logo_Garagem_01.png" alt="Logotipo Garagem Bar" /></a>
+	</div>
+	<div class="menu_alt">
+		<a href="cardapio.html">Cardápio</a>
+	</div>
+	<nav class="menu_nav">
+		<ul>
+			<li>
+				<a href="index.html" >
+					Início
+				</a>
+			</li>
+			<li>
+				<a href="cardapio.html" >
+					Cardápio
+				</a>
+			</li>
+			<li>
+				<a href="#" id="atual">
+					Karaokê
+				</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<div class="karaoke">
+	
+	<div class="fila_show">
+	<table width="80vw" border="0" cellspacing="24">
+		<tbody>
+		<tr>
+			<th scope="col">nº fila</th>
+			<th scope="col">Nome</th>
+			<th scope="col">Música</th>
+			<th scope="col">Artista</th>
+		</tr>
+		<tr>
+			<td>01</td>
+			<td>Maria Filomena</td>
+			<td>I Want to Break Free</td>
+			<td>Queen</td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td>Wallinho</td>
+			<td>Eva</td>
+			<td>Banda Eva</td>
+		</tr>
+		<tr>
+			<td>03</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>04</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>05</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>06</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>07</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>08</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>09</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+			<td>&mdash;</td>
+		</tr>
+	</tbody>
+</table>
+
+	</div>
+	<div class="fila_form">
+		<p class="hero_text">Entre na Fila!</p>
+		<div class="campo">
+			<p class="campo_descricao">Nome*</p>
+			<input type="text" class="campo_input">
+		</div>
+		<div class="campo">
+			<p class="campo_descricao">Música*</p>
+			<input type="text" class="campo_input">
+		</div>
+		<div class="campo">
+			<p class="campo_descricao">Artista</p>
+			<input type="text" class="campo_input">
+		</div>
+		<div class="campo">
+			<p class="campo_descricao">Link do vídeo</p>
+			<input type="text" class="campo_input">
+		</div>
+		<button type="button" onclick="alert('Sua música foi adicionada à fila!')">Enviar!</button>
+		
+	</div>
+</div>
+
+</body>
+</html>

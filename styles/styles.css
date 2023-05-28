@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../img/light-liu-N8P35ITqRZA-unsplash.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+	background-position: center 0%;
+	color: #FFFFFF;
+	font-family: 'Archivo', Helvetica, sans-serif;
+}
+.menu_nav ul li {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	margin-right: 24px;
+	list-style-type: none;
+	width: 179px;
+	display: block;
+	color: #FFFFFF;
+}
+
+.menu_nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menu_nav ul li a:hover {
+	text-decoration: underline;
+	color: #F1E368;
+}
+
+ul li #atual {
+	text-decoration: underline;
+}
+
+
+
+.menu_nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.menu_nav {
+	position: relative;
+	width: auto;
+	margin-top: 0px;
+}
+
+.central {
+	margin-top: -54px;
+}
+.logo_grande {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enderecos{
+	margin-top: -180px;
+	margin-right: 10%;
+}
+.endereco {
+	text-align: right;
+	font-weight: 300;
+	font-size: 18px;
+
+}
+
+
+.slogan {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 100px;
+}
+.logo_header {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-top: -35px;
+	margin-left: 60px;
+}
+.logo_header img {
+	width: 200px;
+	height: 200px;
+}
+#header_scroll {
+	height: 140px;
+	background-color: #131318;
+	position: fixed;
+	margin-top: -140px;
+	margin-left: -10px;
+	margin-right: -10px;
+	width: 105vw;
+}
+#header_scroll .menu_nav ul {
+	margin-top: 48px;
+}
+hr.solid {
+	width: 100%;
+}
+.cardapio .Titulo {
+	font-weight: 300;
+}
+
+.cardapio {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 24px;
+	margin-top: 140px;
+}
+.cardapio_nome {
+	font-weight: 500;
+}
+.cardapio_valor {
+	font-weight: 300;
+}
+.cardapio_imagem img {
+	max-width: 160px;
+	max-height: 160px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: inherit;
+}
+.cardapio_imagem {
+	width: 160px;
+	background-color: #FFFFFF;
+	height: 160px;
+	margin-left: 10%;
+	float: left;
+	margin-bottom: 40px;
+}
+.cardapio_texto {
+	width: auto;
+	float: left;
+	margin-left: 15%;
+	height: 160px;
+	display: flex;
+	flex-direction: column;
+}
+.cardapio br {
+	height: 200px;
+	display: block;
+	width: 100%;
+}
+hr.item {
+	width: 100%;
+	visibility: hidden;
+}
+
+/* Karaokê: */
+.karaoke .fila_form .hero_text {
+	font-size: 24px;
+	font-weight: bold;
+}
+.fila_form .campo .campo_descricao {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+.fila_form .campo .campo_input {
+	background-color: rgba(0,0,0,0.00);
+	border-width: 2px;
+	border-color: #FFFFFF;
+	border-radius: 32px;
+	height: 32px;
+	width: 92%;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: left;
+}
+.karaoke .fila_form button {
+	height: 64px;
+	border-radius: 32px;
+	width: 100%;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: #31FFFF;
+	color: #000000;
+	font-family: Archivo;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.karaoke .fila_form button:hover {
+	background-color: #2DB6BA;
+}
+
+
+.karaoke .fila_form {
+	border: 2px solid #FFFFFF;
+	border-radius: 60px;
+	width: 32vw;
+	margin-left: 4vw;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 8px;
+	float: left;
+}
+.karaoke .fila_show table {
+	width: 44vw;
+	text-align: left;
+	float: right;
+	margin-right: 4vw;
+	margin-left: 0px;
+}
+body a {
+	color: #FFFFFF;
+}
+#header_scroll .menu_alt {
+	display: none;
+}
+
+
+@media (max-width: 960px){
+.karaoke .fila_show table {
+	float: left;
+	width: 90vw;
+	margin-left: 3vw;
+}
+.karaoke .fila_form  {
+	width: 60vw;
+	margin-left: 8vw;
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+#header_scroll {
+	height: 60px;
+	position: static;
+	width: 90vw;
+}
+#header_scroll .menu_nav {
+	margin-top: -30px;
+}
+
+#header_scroll .logo_header img {
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	left: auto;
+	right: auto;
+	display: block;
+	float: left;
+}
+#header_scroll .logo_header {
+	height: 80px;
+	display: block;
+	width: 40vw;
+	float: left;
+	margin-left: 10vw;
+}
+.central .enderecos {
+	margin-top: -60px;
+}
+.central .logo_grande img {
+	width: 80vw;
+}
+.cabecalho .menu_nav {
+	display: none;
+}
+.cabecalho #home {
+	display: block;
+}
+#header_scroll .menu_alt {
+	display: block;
+	margin-top: 16px;
+	width: 40vw;
+	float: left;
+	text-align: right;
+}
+#header_scroll .menu_alt a {
+	text-decoration: none;
+	font-weight: bold;
+}
+.cardapio {
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
